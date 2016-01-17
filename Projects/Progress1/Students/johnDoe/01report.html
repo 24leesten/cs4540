@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+
+<html lang="en"> 
+  <head>
+ 
+    <!-- Author: Leland Stenquist --> 
+
+    <!-- This site shows the basics of how to use html, css, javascript, php, etc -->
+
+    <title>Status | John Doe</title>
+    
+    <link href="../../Style/report.css" rel="stylesheet" type="text/css"/>
+    
+  </head>
+
+  <body>
+
+    <h5>
+      <a title="Leland Stenquist Home" href="../../../../index.html">
+        <button type="button"> Home </button> 
+      </a>
+    </h5>
+    <h5><a title="Student Tracker Home" href="../../index.html"> Student Tracker </a> | <a title="Student Reports" href="reports.html"> Reports </a></h5>
+  
+    <h1>
+      John Doe | Jan 01 2015
+    </h1>
+    
+    <h4>Advisor: Josh Green</h4>
+
+    <h5>Student Information</h5>
+    <form>
+    <table border="1">
+      <tr>
+        <td>ID:</td>
+        <td><input type="text"  name="uid" value="04600445" style="width:99%" ></input></td>
+      </tr>
+
+      <tr>
+        <td>DEGREE:</td>
+        <td>
+          <table style="width:100%">
+            <tr>
+              <td><input type="radio"  name="degree" value="Computing">Computing</input></td>
+              <td><input type="radio"  name="degree" value="computerScience">Computer Science</input></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>TRACK:</td>
+        <td><input type="text"  name="track" value="Fall 2017" style="width:99%"></input></td>
+      </tr>
+      
+      <tr>
+        <td>SEMESTER ADMITED:</td>
+        <td><input type="text"  name="SemesterAdmitted" value="Winter 2014" style="width:99%"></input></td>
+      </tr>
+      
+      <tr>
+        <td># PROGRAM SEMESTER:</td>
+        <td><input type="text"  name="progSemester" value="6" style="width:99%"></input></td>
+      </tr>
+    </table>
+    </form>
+    
+    <h5>Committee</h5>
+    <p>
+      <textarea cols = "50" rows = "4">Lots of People</textarea>
+    </p>
+
+    <h5>Status</h5>
+    <form>
+    <table>
+      <tr> 
+        <th align="left">Action Item</th>     
+        <th align="left">Good</th>
+        <th align="left">Acceptable</th>
+        <th align="left">Unacceptable</th>
+        <th align="left">Completion Time</th>
+      </tr>
+      <tr>
+        <td>Identify Advisor</td>      
+        <td><input type="radio" name="idAdvisor" value="good">1 Semester</input></td>
+        <td><input type="radio" name="idAdvisor" value="acceptable">2 Semester</input></td>
+        <td><input type="radio" name="idAdvisor" value="unacceptable">Unacceptable</input></td>
+        <td><input type="text"  name="idAdvisor"></input></td>
+      </tr>
+      <tr>
+        <td>Program of study approved by advisor and initial committee</td>      
+        <td><input type="radio" name="approval" value="good">4 Semester</input></td>
+        <td><input type="radio" name="approval" value="acceptable">5 Semester</input></td>
+        <td><input type="radio" name="approval" value="unacceptable">Unacceptable</input></td>
+        <td><input type="text"  name="approval"></input></td>
+      </tr>
+      <tr>
+        <td>Complete Teaching Mentorship</td>      
+        <td><input type="radio" name="mentor" value="good">4 Semester</input></td>
+        <td><input type="radio" name="mentor" value="acceptable">5 Semester</input></td>
+        <td><input type="radio" name="mentor" value="unacceptable">Unacceptable</input></td>
+        <td><input type="text"  name="mentor"></input></td>
+      </tr>
+      <tr>
+        <td>Complete Required Courses</td>      
+        <td><input type="radio" name="courses" value="good">4 Semester</input></td>
+        <td><input type="radio" name="courses" value="acceptable">6 Semester</input></td>
+        <td><input type="radio" name="courses" value="unacceptable">Unacceptable</input></td>
+        <td><input type="text"  name="courses"></input></td>
+      </tr>
+      <tr>
+        <td>Full Committee Formed</td>      
+        <td><input type="radio" name="committee" value="good">6 Semester</input></td>
+        <td><input type="radio" name="committee" value="acceptable">7 Semester</input></td>
+        <td><input type="radio" name="committee" value="unacceptable">Unacceptable</input></td>
+        <td><input type="text"  name="committee"></input></td>
+      </tr>
+      <tr>
+        <td>Program of Study approved by Committee</td>      
+        <td><input type="radio" name="program" value="good">6 Semester</input></td>
+        <td><input type="radio" name="program" value="acceptable">7 Semester</input></td>
+        <td><input type="radio" name="program" value="unacceptable">Unacceptable</input></td>
+        <td><input type="text"  name="program"></input></td>
+      </tr>
+      <tr>
+        <td>Written Qualifier</td>      
+        <td><input type="radio" name="qualifier" value="good">5 Semester</input></td>
+        <td><input type="radio" name="qualifier" value="acceptable">6 Semester</input></td>
+        <td><input type="radio" name="qualifier" value="unacceptable">Unacceptable</input></td>
+        <td><input type="text"  name="qualifier"></input></td>
+      </tr>
+      <tr>
+        <td>Oral Qualifier/Proposal</td>      
+        <td><input type="radio" name="oralProposal" value="good">7 Semester</input></td>
+        <td><input type="radio" name="oralProposal" value="acceptable">8 Semester</input></td>
+        <td><input type="radio" name="oralProposal" value="unacceptable">Unacceptable</input></td>
+        <td><input type="text"  name="oralProposal"></input></td>
+      </tr>
+      <tr>
+        <td>Identify Dissertation Defens</td>      
+        <td><input type="radio" name="dissertation" value="good">10 Semester</input></td>
+        <td><input type="radio" name="dissertation" value="acceptable">12 Semester</input></td>
+        <td><input type="radio" name="dissertation" value="unacceptable">Unacceptable</input></td>
+        <td><input type="text"  name="dissertation"></input></td>
+      </tr>
+      <tr>
+        <td>Final Document</td>      
+        <td><input type="text" name="finalDoc"></input></td>
+        <td><input type="text" name="finalDoc"></input></td>
+        <td><input type="text" name="finalDoc"></input></td>
+        <td><input type="text"  name="finalDoc"></input></td>
+      </tr>
+    </table>
+    </form>
+    
+
+  </body>
+</html>
