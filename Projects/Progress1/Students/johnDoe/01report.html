@@ -9,18 +9,18 @@
 
     <title>Status | John Doe</title>
     
-    <link href="../../Style/report.css" rel="stylesheet" type="text/css"/>
+    <link href="../../Style/project.css" rel="stylesheet" type="text/css"/>
     
   </head>
 
   <body>
 
-    <h5>
+    <h4>
       <a title="Leland Stenquist Home" href="../../../../index.html">
         <button type="button"> Home </button> 
       </a>
-    </h5>
-    <h5><a title="Student Tracker Home" href="../../index.html"> Student Tracker </a> | <a title="Student Reports" href="reports.html"> Reports </a></h5>
+    </h4>
+    <h4><a title="Student Tracker Home" href="../../index.html"> Student Tracker </a> | <a title="Student Reports" href="reports.html"> Reports </a></h4>
   
     <h1>
       John Doe | Jan 01 2015
@@ -28,12 +28,12 @@
     
     <h4>Advisor: Josh Green</h4>
 
-    <h5>Student Information</h5>
-    <form>
+    <h4>Student Information</h4>
+    <form >
     <table border="1">
       <tr>
         <td>ID:</td>
-        <td><input type="text"  name="uid" value="04600445" style="width:99%" ></input></td>
+        <td><input type="text"  name="uid" value="04600445" style="width:99%" readonly ></input></td>
       </tr>
 
       <tr>
@@ -41,8 +41,8 @@
         <td>
           <table style="width:100%">
             <tr>
-              <td><input type="radio"  name="degree" value="Computing">Computing</input></td>
-              <td><input type="radio"  name="degree" value="computerScience">Computer Science</input></td>
+              <td><input type="radio"  name="degree" value="Computing" readonly  >Computing</input></td>
+              <td><input type="radio"  name="degree" value="computerScience" readonly  >Computer Science</input></td>
             </tr>
           </table>
         </td>
@@ -50,27 +50,27 @@
       
       <tr>
         <td>TRACK:</td>
-        <td><input type="text"  name="track" value="Fall 2017" style="width:99%"></input></td>
+        <td><input type="text"  name="track" value="Fall 2017" style="width:99%" readonly  ></input></td>
       </tr>
       
       <tr>
         <td>SEMESTER ADMITED:</td>
-        <td><input type="text"  name="SemesterAdmitted" value="Winter 2014" style="width:99%"></input></td>
+        <td><input type="text"  name="SemesterAdmitted" value="Winter 2014" style="width:99%" readonly  ></input></td>
       </tr>
       
       <tr>
         <td># PROGRAM SEMESTER:</td>
-        <td><input type="text"  name="progSemester" value="6" style="width:99%"></input></td>
+        <td><input type="text"  name="progSemester" value="6" style="width:99%" readonly  ></input></td>
       </tr>
     </table>
     </form>
     
-    <h5>Committee</h5>
+    <h4>Committee</h4>
     <p>
-      <textarea cols = "50" rows = "4">Lots of People</textarea>
+      <textarea cols = "50" rows = "4" readonly  >Lots of People</textarea>
     </p>
 
-    <h5>Status</h5>
+    <h4>Status</h4>
     <form>
     <table>
       <tr> 
@@ -82,73 +82,73 @@
       </tr>
       <tr>
         <td>Identify Advisor</td>      
-        <td><input type="radio" name="idAdvisor" value="good">1 Semester</input></td>
-        <td><input type="radio" name="idAdvisor" value="acceptable">2 Semester</input></td>
-        <td><input type="radio" name="idAdvisor" value="unacceptable">Unacceptable</input></td>
-        <td><input type="text"  name="idAdvisor"></input></td>
+        <td><input type="radio" name="idAdvisor" value="good" readonly  >1 Semester</input></td>
+        <td><input type="radio" name="idAdvisor" value="acceptable" readonly  >2 Semester</input></td>
+        <td><input type="radio" name="idAdvisor" value="unacceptable" readonly  >Unacceptable</input></td>
+        <td><input type="text"  name="idAdvisor" readonly  ></input></td>
       </tr>
       <tr>
         <td>Program of study approved by advisor and initial committee</td>      
-        <td><input type="radio" name="approval" value="good">4 Semester</input></td>
-        <td><input type="radio" name="approval" value="acceptable">5 Semester</input></td>
-        <td><input type="radio" name="approval" value="unacceptable">Unacceptable</input></td>
-        <td><input type="text"  name="approval"></input></td>
+        <td><input type="radio" name="approval" value="good" readonly  >4 Semester</input></td>
+        <td><input type="radio" name="approval" value="acceptable" readonly  >5 Semester</input></td>
+        <td><input type="radio" name="approval" value="unacceptable" readonly  >Unacceptable</input></td>
+        <td><input type="text"  name="approval" readonly  ></input></td>
       </tr>
       <tr>
         <td>Complete Teaching Mentorship</td>      
-        <td><input type="radio" name="mentor" value="good">4 Semester</input></td>
-        <td><input type="radio" name="mentor" value="acceptable">5 Semester</input></td>
-        <td><input type="radio" name="mentor" value="unacceptable">Unacceptable</input></td>
-        <td><input type="text"  name="mentor"></input></td>
+        <td><input type="radio" name="mentor" value="good" readonly  >4 Semester</input></td>
+        <td><input type="radio" name="mentor" value="acceptable" readonly  >5 Semester</input></td>
+        <td><input type="radio" name="mentor" value="unacceptable" readonly  >Unacceptable</input></td>
+        <td><input type="text"  name="mentor" readonly  ></input></td>
       </tr>
       <tr>
         <td>Complete Required Courses</td>      
-        <td><input type="radio" name="courses" value="good">4 Semester</input></td>
-        <td><input type="radio" name="courses" value="acceptable">6 Semester</input></td>
-        <td><input type="radio" name="courses" value="unacceptable">Unacceptable</input></td>
-        <td><input type="text"  name="courses"></input></td>
+        <td><input type="radio" name="courses" value="good" readonly  >4 Semester</input></td>
+        <td><input type="radio" name="courses" value="acceptable" readonly  >6 Semester</input></td>
+        <td><input type="radio" name="courses" value="unacceptable" readonly  >Unacceptable</input></td>
+        <td><input type="text"  name="courses" readonly  ></input></td>
       </tr>
       <tr>
         <td>Full Committee Formed</td>      
-        <td><input type="radio" name="committee" value="good">6 Semester</input></td>
-        <td><input type="radio" name="committee" value="acceptable">7 Semester</input></td>
-        <td><input type="radio" name="committee" value="unacceptable">Unacceptable</input></td>
-        <td><input type="text"  name="committee"></input></td>
+        <td><input type="radio" name="committee" value="good" readonly  >6 Semester</input></td>
+        <td><input type="radio" name="committee" value="acceptable" readonly  >7 Semester</input></td>
+        <td><input type="radio" name="committee" value="unacceptable" readonly  >Unacceptable</input></td>
+        <td><input type="text"  name="committee" readonly  ></input></td>
       </tr>
       <tr>
         <td>Program of Study approved by Committee</td>      
-        <td><input type="radio" name="program" value="good">6 Semester</input></td>
-        <td><input type="radio" name="program" value="acceptable">7 Semester</input></td>
-        <td><input type="radio" name="program" value="unacceptable">Unacceptable</input></td>
-        <td><input type="text"  name="program"></input></td>
+        <td><input type="radio" name="program" value="good" readonly  >6 Semester</input></td>
+        <td><input type="radio" name="program" value="acceptable" readonly  >7 Semester</input></td>
+        <td><input type="radio" name="program" value="unacceptable" readonly  >Unacceptable</input></td>
+        <td><input type="text"  name="program" readonly  ></input></td>
       </tr>
       <tr>
         <td>Written Qualifier</td>      
-        <td><input type="radio" name="qualifier" value="good">5 Semester</input></td>
-        <td><input type="radio" name="qualifier" value="acceptable">6 Semester</input></td>
-        <td><input type="radio" name="qualifier" value="unacceptable">Unacceptable</input></td>
-        <td><input type="text"  name="qualifier"></input></td>
+        <td><input type="radio" name="qualifier" value="good" readonly  >5 Semester</input></td>
+        <td><input type="radio" name="qualifier" value="acceptable" readonly  >6 Semester</input></td>
+        <td><input type="radio" name="qualifier" value="unacceptable" readonly  >Unacceptable</input></td>
+        <td><input type="text"  name="qualifier" readonly  ></input></td>
       </tr>
       <tr>
         <td>Oral Qualifier/Proposal</td>      
-        <td><input type="radio" name="oralProposal" value="good">7 Semester</input></td>
-        <td><input type="radio" name="oralProposal" value="acceptable">8 Semester</input></td>
-        <td><input type="radio" name="oralProposal" value="unacceptable">Unacceptable</input></td>
-        <td><input type="text"  name="oralProposal"></input></td>
+        <td><input type="radio" name="oralProposal" value="good" readonly  >7 Semester</input></td>
+        <td><input type="radio" name="oralProposal" value="acceptable" readonly  >8 Semester</input></td>
+        <td><input type="radio" name="oralProposal" value="unacceptable" readonly  >Unacceptable</input></td>
+        <td><input type="text"  name="oralProposal" readonly  ></input></td>
       </tr>
       <tr>
         <td>Identify Dissertation Defens</td>      
-        <td><input type="radio" name="dissertation" value="good">10 Semester</input></td>
-        <td><input type="radio" name="dissertation" value="acceptable">12 Semester</input></td>
-        <td><input type="radio" name="dissertation" value="unacceptable">Unacceptable</input></td>
-        <td><input type="text"  name="dissertation"></input></td>
+        <td><input type="radio" name="dissertation" value="good" readonly  >10 Semester</input></td>
+        <td><input type="radio" name="dissertation" value="acceptable" readonly  >12 Semester</input></td>
+        <td><input type="radio" name="dissertation" value="unacceptable" readonly  >Unacceptable</input></td>
+        <td><input type="text"  name="dissertation" readonly  ></input></td>
       </tr>
       <tr>
         <td>Final Document</td>      
-        <td><input type="text" name="finalDoc"></input></td>
-        <td><input type="text" name="finalDoc"></input></td>
-        <td><input type="text" name="finalDoc"></input></td>
-        <td><input type="text"  name="finalDoc"></input></td>
+        <td><input type="text" name="finalDoc" readonly  ></input></td>
+        <td><input type="text" name="finalDoc" readonly  ></input></td>
+        <td><input type="text" name="finalDoc" readonly  ></input></td>
+        <td><input type="text"  name="finalDoc" readonly  ></input></td>
       </tr>
     </table>
     </form>

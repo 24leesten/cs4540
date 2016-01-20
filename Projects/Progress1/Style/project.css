@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+body { 
+	background-image: url("../res/img/uofu_background.jpg");
+	background-repeat: no-repeat; background-size: 100%;
+}
+table {
+	border-collapse: collapse; 
+	table-layout:fixed; 
+	width:100%;
+}
+textarea {
+	width:50%;
+}
+input[type=text] { 
+	border-radius: 2px;
+}
+input[type=text]:focus {
+	border: 2px solid #555; 
+	border-radius: 4px;
+}
+textarea {
+	border-radius: 2px;
+}
+textarea:focus {
+	border: 2px solid #555; 
+	border-radius: 4px;
+}
+
+
+
